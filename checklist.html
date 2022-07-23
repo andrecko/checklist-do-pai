@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checklist</title>
+    </head>
+    <body style="display: flex; flex-direction: column; height: 100vh;">
+        <header style="padding: 0.5em; display: flex; justify-content: space-between; flex-wrap: wrap;">
+            <div>
+                <h1>AIRBUS A320/A321</h1>
+            </div>
+            <div>
+                <h2>NORMAL CHECKLIST</h2>
+            </div>
+        </header>
+        <main style="padding: 1em;">
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">PRE FLIGHT FLOWS</h3>
+                <input type="checkbox" id="cb1" name="cb1">
+                <label for="cb1">Download charts & NOTAMS</label><br>
+                <input type="checkbox" id="cb2" name="cb2">
+                <label for="cb2">Check weather & forecasts</label><br>
+                <input type="checkbox" id="cb3" name="cb3">
+                <label for="cb3">Load PAX, CARGO & FUEL</label><br>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">PRE START CHECKLIST</h3>
+                <input type="checkbox" id="cb4" name="cb4">
+                <label for="cb4">PARKING BRAKE SET</label><br>
+                <input type="checkbox" id="cb5" name="cb5">
+                <label for="cb5">CHOCKS REMOVED</label><br>
+                <input type="checkbox" id="cb6" name="cb6">
+                <label for="cb6">GPU CONNECTED</label><br>
+                <input type="checkbox" id="cb7" name="cb7">
+                <label for="cb7">THROTTLE THRUST LEVERS IDLE</label><br>
+                <input type="checkbox" id="cb8" name="cb8">
+                <label for="cb8">ENGINE MASTERS OFF</label><br>
+                <input type="checkbox" id="cb9" name="cb9">
+                <label for="cb9">BATTERIES ON</label><br>
+                <input type="checkbox" id="cb10" name="cb10">
+                <label for="cb10">GENERATOR SWITCHES ON</label><br>
+                <input type="checkbox" id="cb11" name="cb11">
+                <label for="cb11">EXT POWER ON</label><br>
+                <input type="checkbox" id="cb12" name="cb12">
+                <label for="cb12">ADIRS SET TO NAV</label><br>
+                <input type="checkbox" id="cb13" name="cb13">
+                <label for="cb13">PANEL DISPLAYS BRIGHTNESS SET</label><br>
+                <input type="checkbox" id="cb14" name="cb14">
+                <label for="cb14">NAV LIGHTS ON</label><br>
+                <input type="checkbox" id="cb15" name="cb15">
+                <label for="cb15">PANEL LIGHTS ON if required</label><br>
+                <input type="checkbox" id="cb16" name="cb16">
+                <label for="cb16">LANDING GEAR LEVER CHECK DOWN</label><br>
+                <input type="checkbox" id="cb17" name="cb17">
+                <label for="cb17">FLAPS UP</label><br>
+                <input type="checkbox" id="cb18" name="cb18">
+                <label for="cb18">SPOILER RETRACTED</label><br>
+                <input type="checkbox" id="cb19" name="cb19">
+                <label for="cb19">FUEL QUANTITY CHECK</label><br>
+                <input type="checkbox" id="cb20" name="cb20">
+                <label for="cb20">FASTEN SEAT BELTS ON</label><br>
+                <input type="checkbox" id="cb21" name="cb21">
+                <label for="cb21">NO SMOKING SIGNS ON</label><br>
+                <h4>Check Weather (ATIS, Flight Services)</h4>
+                <input type="checkbox" id="cb22" name="cb22">
+                <label for="cb22">DE-ICE TEST/CHECK</label><br>
+                <input type="checkbox" id="cb23" name="cb23">
+                <label for="cb23">TRANSPONDER SET, STANDBY</label><br>
+                <input type="checkbox" id="cb24" name="cb24">
+                <label for="cb24">BEACON LIGHTS ON</label><br>
+                <input type="checkbox" id="cb25" name="cb25">
+                <label for="cb25">EMERGENCY LIGHTS ARM</label><br>
+                <input type="checkbox" id="cb26" name="cb26">
+                <label for="cb26">FMC SETUP, CHECK</label><br>
+                <input type="checkbox" id="cb27" name="cb27">
+                <label for="cb27">DEPARTURE BRIEFING COMPLETE</label><br>
+                <input type="checkbox" id="cb28" name="cb28">
+                <label for="cb28">DOORS CLOSED (CHECK DOOR PAGE)</label><br>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">STARTUP CHECKLIST</h3>
+                <input type="checkbox" id="cb29" name="cb29">
+                <label for="cb29">APU START</label><br>
+                <input type="checkbox" id="cb30" name="cb30">
+                <label for="cb30">APU BLEED RUN (WHEN AVAILABLE)</label><br>
+                <input type="checkbox" id="cb31" name="cb31">
+                <label for="cb31">APU GEN ON/CHECK VOLTS</label><br>
+                <h4>Request Pushback - Initiate Pushback</h4>
+                <input type="checkbox" id="cb32" name="cb32">
+                <label for="cb32">THRUST LEVERS IDLE</label><br>
+                <input type="checkbox" id="cb33" name="cb33">
+                <label for="cb33">ENGINE AREA CLEAR</label><br>
+                <input type="checkbox" id="cb34" name="cb34">
+                <label for="cb34">FUEL PUMP SWITCHES ON</label><br>
+                <input type="checkbox" id="cb35" name="cb35">
+                <label for="cb35">MODE SELECTOR IGN/START</label><br>
+                <input type="checkbox" id="cb36" name="cb36">
+                <label for="cb36">LEFT ENGINE (ENG 1)</label><br>
+                <input type="checkbox" id="cb37" name="cb37">
+                <label for="cb37">ENGINE MASTER 1 START</label><br>
+                <input type="checkbox" id="cb38" name="cb38">
+                <label for="cb38">AT N2 > 20% FUEL FLOW CHECK ON</label><br>
+                <input type="checkbox" id="cb39" name="cb39">
+                <label for="cb39">N1 INCREASING AS N2 INCR CHECK</label><br>
+                <input type="checkbox" id="cb40" name="cb40">
+                <label for="cb40">OIL PRESSURE CHECK</label><br>
+                <input type="checkbox" id="cb41" name="cb41">
+                <label for="cb41">GENERATOR SWITCH ON</label><br>
+                <input type="checkbox" id="cb42" name="cb42">
+                <label for="cb42">REPEAT FOR RIGHT ENGINE (ENG 2)</label><br>
+                <input type="checkbox" id="cb43" name="cb43">
+                <label for="cb43">FUEL FLOW CHECK</label><br>
+                <input type="checkbox" id="cb44" name="cb44">
+                <label for="cb44">HYDRAULIC PUMP SWITCHES ON</label><br>
+                <input type="checkbox" id="cb20" name="cb20">
+                <label for="cb20">APU OFF</label><br>
+                <input type="checkbox" id="cb45" name="cb45">
+                <label for="cb45">MODE SELECTOR NORM</label><br>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">BEFORE TAXI CHECKLIST</h3>
+                <input type="checkbox" id="cb46" name="cb46">
+                <label for="cb46">PROBE/WINDOW HEAT AUTO</label><br>
+                <input type="checkbox" id="cb47" name="cb47">
+                <label for="cb47">HDG INDICATOR/ALTIMETERS SET</label><br>
+                <input type="checkbox" id="cb48" name="cb48">
+                <label for="cb48">STDBY INSTRUMENTS SET</label><br>
+                <input type="checkbox" id="cb49" name="cb49">
+                <label for="cb49">RADIOS AND AVIONICS SET FOR DEPARTURE</label><br>
+                <input type="checkbox" id="cb50" name="cb50">
+                <label for="cb50">AUTOPILOT SET, don't activate</label><br>
+                <input type="checkbox" id="cb51" name="cb51">
+                <label for="cb51">F/D ON</label><br>
+                <input type="checkbox" id="cb52" name="cb52">
+                <label for="cb52">AUTOBRAKE MAX</label><br>
+                <input type="checkbox" id="cb53" name="cb53">
+                <label for="cb53">ELEVATOR TRIM SET FOR TAKE-OFF</label><br>
+                <input type="checkbox" id="cb54" name="cb54">
+                <label for="cb54">FLIGHT CONTROLS FREE AND CORRECT</label><br>
+                <h4>Request Taxi Clearence</h4>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">TAXI CHECKLIST</h3>
+                <input type="checkbox" id="cb55" name="cb55">
+                <label for="cb55">TAXI LIGHTS ON</label><br>
+                <input type="checkbox" id="cb56" name="cb56">
+                <label for="cb56">PARKING BRAKE RELEASE</label><br>
+                <input type="checkbox" id="cb57" name="cb57">
+                <label for="cb57">TAXI to assigned runway SPEED Max. 20 knots</label><br>
+                <input type="checkbox" id="cb58" name="cb58">
+                <label for="cb58">BRKS/GYRO/TURN COORDINATOR CHECK during taxi</label><br>
+                <input type="checkbox" id="cb59" name="cb59">
+                <label for="cb59">T/O CONFIG DEPRESS/CHECK</label><br>
+                <input type="checkbox" id="cb60" name="cb60">
+                <label for="cb60">T/O MEMO GREEN</label><br>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">BEFORE TAKE-OFF CHECKLIST</h3>
+                <input type="checkbox" id="cb61" name="cb61">
+                <label for="cb61">PARKING BRAKE SET</label><br>
+                <input type="checkbox" id="cb62" name="cb62">
+                <label for="cb62">FLIGHT INSTRUMENTS CHECK</label><br>
+                <input type="checkbox" id="cb63" name="cb63">
+                <label for="cb63">ENGINE INSTRUMENTS CHECK</label><br>
+                <input type="checkbox" id="cb64" name="cb64">
+                <label for="cb64">TAKE-OFF DATA (V1, VR, V2) CHECK</label><br>
+                <input type="checkbox" id="cb65" name="cb65">
+                <label for="cb65">NAV EQUIPAMENT CHECK</label><br>
+                <input type="checkbox" id="cb66" name="cb66">
+                <label for="cb66">LANDING LIGHTS ON</label><br>
+                <input type="checkbox" id="cb67" name="cb67">
+                <label for="cb67">STROBE LIGHT ON</label><br>
+                <input type="checkbox" id="cb68" name="cb68">
+                <label for="cb9">PITOT HEAT AUTO</label><br>
+                <input type="checkbox" id="cb9" name="cb9">
+                <label for="cb9">DE-ICE AS REQUIRED</label><br>
+                <input type="checkbox" id="cb9" name="cb9">
+                <label for="cb68">TRANSPONDER TA/RA</label><br>
+                <h4>Request Takeoff Clearence</h4>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">TAKE-OFF CHECKLIST</h3>
+                <h4>Smoothly increase thrust to 40% N1 let spool up</h4>
+                <input type="checkbox" id="cb69" name="cb69">
+                <label for="cb69">TAKEOFF THRUST FULL OR TO/GA</label><br>
+                <input type="checkbox" id="cb70" name="cb70">
+                <label for="cb70">BRAKES RELEASE</label><br>
+                <input type="checkbox" id="cb71" name="cb71">
+                <label for="cb71">AT 100 KTS SPEED CROSSCHECK</label><br>
+                <input type="checkbox" id="cb72" name="cb72">
+                <label for="cb72">AT V1 COMMITED/GO (Decision)</label><br>
+                <input type="checkbox" id="cb73" name="cb73">
+                <label for="cb73">AT Vr ROTATE</label><br>
+                <input type="checkbox" id="cb74" name="cb74">
+                <label for="cb74">PITCH slowly to 10deg, increase to 15deg</label><br>
+                <input type="checkbox" id="cb75" name="cb75">
+                <label for="cb75">POSITIVE RATE OD CLIMB GEAR UP</label><br>
+                <input type="checkbox" id="cb76" name="cb76">
+                <label for="cb76">PASSING F SPEED (PFD) FLAPS 0</label><br>
+                <input type="checkbox" id="cb77" name="cb77">
+                <label for="cb77">SPOILERS DISARM</label><br>
+                <input type="checkbox" id="cb78" name="cb78">
+                <label for="cb78">LANDING LIGHTS AS REQUIRED</label><br>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">CLIMB-OUT CHECKLIST</h3>
+                <input type="checkbox" id="cb79" name="cb79">
+                <label for="cb79">THRUST LEVERS CLB DETENT</label><br>
+                <input type="checkbox" id="cb80" name="cb80">
+                <label for="cb80">AP1 ENGAGE (when suitable)</label><br>
+                <input type="checkbox" id="cb81" name="cb81">
+                <label for="cb81">TAXI LIGHTS OFF</label><br>
+                <h4>At TA (Transition-Altitude)</h4>
+                <input type="checkbox" id="cb82" name="cb82">
+                <label for="cb82">ALTIMETER PULL TO SET STD (29.92/1013)</label><br>
+                <input type="checkbox" id="cb83" name="cb83">
+                <label for="cb83">BELOW 10'000FT MAX. 250 KIAS</label><br>
+                <input type="checkbox" id="cb84" name="cb84">
+                <label for="cb84">ATC AS REQUIRED</label><br>
+                <h4>Passing 10'000ft</h4>
+                <input type="checkbox" id="cb85" name="cb85">
+                <label for="cb85">LANDING LIGHTS OFF</label><br>
+                <h4>Above 10'000ft</h4>
+                <input type="checkbox" id="cb86" name="cb86">
+                <label for="cb86">FASTEN SEAT BELTS OFF</label><br>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">CRUISE CHECKLIST</h3>
+                <h4>Accelerate to Cruise Speed</h4>
+                <input type="checkbox" id="cb87" name="cb87">
+                <label for="cb87">ENGINE & INSTRUMENTS MONITOR</label><br>
+                <input type="checkbox" id="cb88" name="cb88">
+                <label for="cb88">FUEL QUANTITY CHECK</label><br>
+                <input type="checkbox" id="cb89" name="cb89">
+                <label for="cb89">RADIOS TUNED & SET</label><br>
+                <input type="checkbox" id="cb90" name="cb90">
+                <label for="cb90">AUTOPILOT CHECK & SET</label><br>
+                <input type="checkbox" id="cb91" name="cb91">
+                <label for="cb91">LIGHTS AS REQUIRED</label><br>
+                <input type="checkbox" id="cb92" name="cb92">
+                <label for="cb92">ATIS/AIRPORT INFORMATION CHECK</label><br>
+                <input type="checkbox" id="cb93" name="cb93">
+                <label for="cb93">ALTIMETER CHECK</label><br>
+                <input type="checkbox" id="cb94" name="cb94">
+                <label for="cb94">RADIOS SET</label><br>
+                <input type="checkbox" id="cb95" name="cb95">
+                <label for="cb95">DE-ICE AS REQUIRED</label><br>
+                <input type="checkbox" id="cb96" name="cb96">
+                <label for="cb96">TOD SET TCAS TO BELOW</label><br>
+                <h4>Descent Speed</h4>
+                <input type="checkbox" id="cb97" name="cb97">
+                <label for="cb97">FL240 0.76 MACH</label><br>
+                <input type="checkbox" id="cb98" name="cb98">
+                <label for="cb98">FL180 0.67 MACH</label><br>
+                <h4>At TA (Transition-Altitude)</h4>
+                <input type="checkbox" id="cb99" name="cb99">
+                <label for="cb99">ALTIMETER RESET TO LOCAL</label><br>
+                <input type="checkbox" id="cb100" name="cb100">
+                <label for="cb100">FL120 280 KIAS</label><br>
+                <h4>Below 10'000ft</h4>
+                <input type="checkbox" id="cb101" name="cb101">
+                <label for="cb101">SPEED 250 KIAS</label><br>
+                <input type="checkbox" id="cb102" name="cb102">
+                <label for="cb102">LANDING LIGHTS ON</label><br>
+                <input type="checkbox" id="cb103" name="cb103">
+                <label for="cb103">LS ON</label><br>
+                <input type="checkbox" id="cb104" name="cb104">
+                <label for="cb104">FUEL QUANTITY & BALANCE CHECK</label><br>
+                <input type="checkbox" id="cb105" name="cb105">
+                <label for="cb105">FLAPS/LANDING GEAR CHECK UP</label><br>
+                <h4>Check Weather (ATIS, Flight Services)</h4>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">APPROACH CHECKLIST</h3>
+                <input type="checkbox" id="cb106" name="cb106">
+                <label for="cb106">FASTEN SEAT BELTS ON</label><br>
+                <input type="checkbox" id="cb107" name="cb107">
+                <label for="cb107">RADIOS SET</label><br>
+                <input type="checkbox" id="cb108" name="cb108">
+                <label for="cb108">SPEED: ESTABILISH 210 KIAS</label><br>
+                <input type="checkbox" id="cb109" name="cb109">
+                <label for="cb109">LANDING LIGHTS CHECK ON</label><br>
+                <input type="checkbox" id="cb110" name="cb110">
+                <label for="cb110">TAXI LIGHTS ON</label><br>
+                <input type="checkbox" id="cb111" name="cb111">
+                <label for="cb111">GND SPOILERS ARM</label><br>
+                <input type="checkbox" id="cb112" name="cb112">
+                <label for="cb112">AUTO BRAKE SET</label><br>
+                <input type="checkbox" id="cb113" name="cb113">
+                <label for="cb113">FLAPS FLAPS 1</label><br>
+                <input type="checkbox" id="cb114" name="cb114">
+                <label for="cb114">SPEED: ESTABILISH 180 KIAS</label><br>
+                <input type="checkbox" id="cb115" name="cb115">
+                <label for="cb115">AT 6 DME FLAPS 2</label><br>
+                <input type="checkbox" id="cb116" name="cb116">
+                <label for="cb116">SPEED: MANAGED</label><br>
+                <input type="checkbox" id="cb117" name="cb117">
+                <label for="cb117">LANDING GEAR DOWN</label><br>
+                <input type="checkbox" id="cb118" name="cb118">
+                <label for="cb118">LANDING GEAR 3 GREEN FLAPS 3</label><br>
+                <input type="checkbox" id="cb119" name="cb119">
+                <label for="cb119">FLAPS FULL</label><br>
+                <h4>Final Glideslope Descent:</h4>
+                <input type="checkbox" id="cb120" name="cb120">
+                <label for="cb120">SPEED: ESTABILISH 145 KIAS</label><br>
+                <input type="checkbox" id="cb121" name="cb121">
+                <label for="cb121">PARKING BRAKE VERIFY OFF</label><br>
+                <input type="checkbox" id="cb122" name="cb122">
+                <label for="cb122">DE-ICE AS REQUIRED</label><br>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">LANDING CHECKLIST</h3>
+                <input type="checkbox" id="cb123" name="cb123">
+                <label for="cb123">LANDING GEAR CHECK DOWN</label><br>
+                <input type="checkbox" id="cb124" name="cb124">
+                <label for="cb124">AUTOPILOT AS REQUIRED</label><br>
+                <input type="checkbox" id="cb125" name="cb125">
+                <label for="cb125">GO-AROUND ALTITUDE SET IN FCU</label><br>
+                <input type="checkbox" id="cb126" name="cb126">
+                <label for="cb126">AUTO-THRUST AS REQUIRED</label><br>
+                <input type="checkbox" id="cb127" name="cb127">
+                <label for="cb127">LANDING MEMO NO BLUE</label><br>
+                <input type="checkbox" id="cb128" name="cb128">
+                <label for="cb128">LANDING SPEED MANAGED</label><br>
+                <input type="checkbox" id="cb129" name="cb129">
+                <label for="cb129">AFTER TOUCH DOWN REVERSE THRUS</label><br>
+                <input type="checkbox" id="cb130" name="cb130">
+                <label for="cb130">SPOILERS VERIFY EXTENDED</label><br>
+                <input type="checkbox" id="cb131" name="cb131">
+                <label for="cb131">BRAKES AS REQUIRED</label><br>
+                <input type="checkbox" id="cb132" name="cb132">
+                <label for="cb132">AT 60 KIAS CANCEL REVERSE THRUST</label><br>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">AFTER LANDING CHECKLIST</h3>
+                <input type="checkbox" id="cb133" name="cb133">
+                <label for="cb133">SPOILERS DISARMED</label><br>
+                <input type="checkbox" id="cb134" name="cb134">
+                <label for="cb134">FLAPS RETRACTED</label><br>
+                <input type="checkbox" id="cb135" name="cb135">
+                <label for="cb135">ENG MODE SELECTOR NORM</label><br>
+                <input type="checkbox" id="cb136" name="cb136">
+                <label for="cb136">LANDING LIGHTS OFF</label><br>
+                <input type="checkbox" id="cb137" name="cb137">
+                <label for="cb137">STROBE LIGHTS OFF</label><br>
+                <input type="checkbox" id="cb138" name="cb138">
+                <label for="cb138">ANTI ICE AS REQUIRED</label><br>
+                <input type="checkbox" id="cb139" name="cb139">
+                <label for="cb139">APU START</label><br>
+                <input type="checkbox" id="cb140" name="cb140">
+                <label for="cb140">BRAKE TEMP CHECK</label><br>
+                <input type="checkbox" id="cb141" name="cb141">
+                <label for="cb141">TRANSPONDER OFF</label><br>
+                <h4>Taxi to Assigned Gate/Parking (Speed Max 20 knots)</h4>
+                <input type="checkbox" id="cb142" name="cb142">
+                <label for="cb142">APU START/CHECK RUN</label><br>
+                <input type="checkbox" id="cb143" name="cb143">
+                <label for="cb143">APU GEN ON/CHECK VOLTS</label><br>
+                <input type="checkbox" id="cb144" name="cb144">
+                <label for="cb144">ELEVATOR TRIM TAKEOFF SETTING</label><br>
+                <h4>turning into the Gate:</h4>
+                <input type="checkbox" id="cb145" name="cb145">
+                <label for="cb145">TAXI LIGHTS OFF</label><br>
+            </div>
+            <div class="grid">
+                <h3 style="background-color: rgb(72, 121, 255);">PARKING/SHUTDOWN CHECKLIST</h3>
+                <input type="checkbox" id="cb146" name="cb146">
+                <label for="cb146">PARKING BRAKES SET</label><br>
+                <input type="checkbox" id="cb147" name="cb147">
+                <label for="cb147">THRUST LEVERS IDLE</label><br>
+                <input type="checkbox" id="cb148" name="cb148">
+                <label for="cb148">GROUND CONTACT ESTABILISH</label><br>
+                <input type="checkbox" id="cb149" name="cb149">
+                <label for="cb149">GROUND OPERATIONS AS REQUIRED (FMC2)</label><br>
+                <input type="checkbox" id="cb150" name="cb150">
+                <label for="cb150">ELECTRICAL POWER ESTABILISH</label><br>
+                <input type="checkbox" id="cb151" name="cb151">
+                <label for="cb151">ENGINE MASTER 1 & 2 OFF</label><br>
+                <input type="checkbox" id="cb152" name="cb152">
+                <label for="cb152">PARKING BRAKES AS REQUIRED</label><br>
+                <input type="checkbox" id="cb153" name="cb153">
+                <label for="cb153">NAV LIGHTS OFF</label><br>
+                <input type="checkbox" id="cb154" name="cb154">
+                <label for="cb154">EXTERIOR LIGHTS AS REQUIRED</label><br>
+                <input type="checkbox" id="cb155" name="cb155">
+                <label for="cb155">ANTI ICE OFF</label><br>
+                <input type="checkbox" id="cb156" name="cb156">
+                <label for="cb156">PASSENGER SIGNS OFF</label><br>
+                <input type="checkbox" id="cb157" name="cb157">
+                <label for="cb157">DOORS OPEN</label><br>
+                <input type="checkbox" id="cb158" name="cb158">
+                <label for="cb158">FLIGHT DIRECTOR OFF</label><br>
+                <input type="checkbox" id="cb159" name="cb159">
+                <label for="cb159">APU BLEED AS REQUIRED</label><br>
+                <input type="checkbox" id="cb160" name="cb160">
+                <label for="cb160">FUEL PUMPS ALL OFF</label><br>
+                <input type="checkbox" id="cb161" name="cb161">
+                <label for="cb161">BEACON OFF</label><br>
+                <input type="checkbox" id="cb162" name="cb162">
+                <label for="cb162">ECAM STS DEPRESS</label><br>
+                <input type="checkbox" id="cb163" name="cb163">
+                <label for="cb163">PANEL LIGHTS OFF</label><br>
+                <input type="checkbox" id="cb164" name="cb164">
+                <label for="cb164">ADIRS OFF</label><br>
+                <input type="checkbox" id="cb165" name="cb165">
+                <label for="cb165">AVIONICS OFF</label><br>
+                <input type="checkbox" id="cb166" name="cb166">
+                <label for="cb166">NO SMOKING OFF</label><br>
+                <input type="checkbox" id="cb167" name="cb167">
+                <label for="cb167">APU AS REQUIRED</label><br>
+                <input type="checkbox" id="cb168" name="cb168">
+                <label for="cb168">BATTERIES AS REQUIRED</label><br>
+            </div>
+        </main>
+    </body>
+</html>
