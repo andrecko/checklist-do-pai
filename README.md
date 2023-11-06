@@ -1,3 +1,3 @@
 # checklist-do-pai
  
-Checklist pro pai jogar Microsoft Flight Simulator.
+Checklist básico em html pro pai jogar Microsoft Flight Simulator :D
